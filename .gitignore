@@ -11,8 +11,7 @@ log.txt
 /coverage
 
 # Ionic
-/.ionic
-/www             # Esto excluye la carpeta de la compilación en producción
+/.ionic             # Esto excluye la carpeta de la compilación en producción
 /platforms
 /plugins
 
