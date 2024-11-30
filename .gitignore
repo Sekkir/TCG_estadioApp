@@ -1,10 +1,3 @@
-# Specifies intentionally untracked files to ignore when using Git
-# http://git-scm.com/docs/gitignore
-
-*~
-*.sw[mnpcod]
-.tmp
-*.tmp
 *.tmp.*
 UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
@@ -19,18 +12,18 @@ log.txt
 
 # Ionic
 /.ionic
-/www
+/www             # Esto excluye la carpeta de la compilación en producción
 /platforms
 /plugins
 
 # Compiled output
-/dist
+/dist            # Carpeta donde se genera el build final de producción
 /tmp
 /out-tsc
 /bazel-out
 
 # Node
-/node_modules
+/node_modules     # Esto excluye la carpeta node_modules que es la que más espacio consume
 npm-debug.log
 yarn-error.log
 
