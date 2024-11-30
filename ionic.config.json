@@ -1,0 +1,7 @@
+{
+  "name": "TCGEstadioApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
